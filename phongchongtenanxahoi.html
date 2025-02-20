@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1> XÃ HỘI ĐANG PHÁT TRIỂN TỪNG NGÀY KÉO THEO NHỮNG VẤN NẠN CŨNG GIA TĂNG
+</div>
+
+<div class="topnav">
+  <a href="#">HỖ TRỢ</a>
+  <a href="#">BÀI VIẾT</a>
+  <a href="#">GIỚI THIỆU VỀ CHÚNG TÔI</a>
+  <a href="#" style="float:right">Link</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Tệ Nạn Xã Hội đang từng bước len lỏi vào môi trường học đường</h2>
+      <h5>Title description, Dec 7, 2017</h5>
+      <img src="https://hcdc.vn/public/img/02bf8460bf0d6384849ca010eda38cf8e9dbc4c7/images/mod1/images/bao-luc-hoc-duong-hau-qua-va-cach-phong-tranh/images/image001.png">
+      <p>Bạo lực học đường luôn là vấn nạn lớn nhất đối với ngành giáo dục. Trước đây, bạo lực được thể hiện chủ yếu qua các hành vi bắt nạt, gây tổn thương về mặt thể chất. Tuy nhiên, sự phát triển của internet đã dẫn đến nhiều hình thức bạo lực khác như bạo lực qua mạng (Cyber bullying).</p>
+      
+    </div>
+    <div class="card">
+    
